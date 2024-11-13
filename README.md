@@ -4,3 +4,5 @@
 
 ### Чтобы сайт корректно работал, необходимо перейти по адресу https://cors-anywhere.herokuapp.com/corsdemo и нажать на кнопку "Request temporary access to the demo server", после этого можно перейти на сайт
 
+ссылка на сайт: https://sycret-task.netlify.app
+
