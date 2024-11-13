@@ -1,0 +1,42 @@
+.formPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .form {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    span {
+        font-size: 15px;
+    }
+}

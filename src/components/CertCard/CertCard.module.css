@@ -1,0 +1,60 @@
+.certContainer {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    border: 3px solid #ffffff00;
+    border-radius: 12px;
+    transition: border linear .3s;
+}
+
+.choosedCard {
+    border: 3px solid #6E7E89;
+}
+
+.certContainer:hover {
+    cursor: pointer;
+    border: 3px solid #6E7E89;
+}
+
+.priceRectangle {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.certInfo > p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .priceRectangle {
+        width: 200px;
+        height: 100px;
+    }
+
+    .certInfo>p {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .certContainer {
+        flex-direction: column;
+        gap: 0;
+    }
+}
